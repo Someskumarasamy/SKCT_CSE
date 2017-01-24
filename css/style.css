@@ -1,0 +1,413 @@
+@font-face{
+	font-family:Aldrich;
+	src:url(../fonts/Convergence.ttf);
+}
+
+body{
+	font-family: Aldrich;
+	font-size: 15px;
+	letter-spacing: 1px;
+    background-color: white;
+}
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9997;
+	background: url(../Images/loader.gif) center no-repeat #fff;
+}
+.navbar {
+    min-height: 63px;
+}
+.logo{
+    position: absolute;
+    top: 4px;
+}
+.navbar-inverse {
+    background-color: darkslateblue;
+    border:0px solid;
+    border-color: transparent;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 24px 24px;
+    padding-left: 80px;
+    font-size: 35px;
+    line-height: 20px;
+    color: white;
+}
+@media (max-width: 768px){
+    .navbar-brand {
+        font-size: 20px;
+    }
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+}
+@media (min-width: 768px){
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+	    padding-top: 23px;
+	    color: white;
+	    font-size: 35px;
+	    text-transform: uppercase;
+	}
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    color: white;
+    font-size: 29px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 3px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #9d9d9d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin:0px;
+    border:0px solid transparent;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 13px;
+    border-top:3px solid transparent;
+    transition: .9s all ease;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    border-top:3px solid red;
+    background-color: rgba(0,0,0,0.3);
+    transition: .9s all ease;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: yellow;
+    background-color: transparent;
+    transition: .9s all ease;
+}
+.navbar-inverse .navbar-nav>.active>a:hover{
+    color: white;
+    border-top:3px solid red;
+    background-color: rgba(0,0,0,0.3);
+    transition: .9s all ease;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: darkslateblue;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+    color: white;
+    font-size: 29px;
+}
+@media (min-width: 768px){
+	.navbar-form .form-control {
+	    display: inline-block;
+	    width: 234px;
+	    height: 42px;
+	    vertical-align: middle;
+	    background-color: transparent;
+	    color: white;
+	}
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #101010;
+    padding-top: 0px;
+}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+   max-height: 500px;
+}
+.dropdown-menu > li > a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.dropdown-menu {
+    background-color: darkslateblue;
+}
+.dropdown-menu>li>a {
+    color: white;
+    padding: 13px;
+}
+.dropdown-menu>li>a:hover {
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+}
+.badge{
+	border-radius:50px;
+	background-color: rgb(128,190,0);
+	padding: 3px;
+	padding-left: 5px;
+}
+.fa{
+	padding-right: 5px;
+}
+.main-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.vismis-container{
+    padding-top: 50px;
+    background-image: url(../Images/Students/inside.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 40px;
+}
+.myspan {
+    font-size: 45px;
+    color: rgba(0,0,255,0.7);
+}
+.myspan1 {
+    font-size: 45px;
+    color: rgba(255,0,0,0.7);
+}
+.myspan2 {
+    font-size: 45px;
+    color: rgba(0,255,0,0.7);
+}
+.peo-container{
+    padding-top: 20px;
+}
+.panel-default {
+    border-color: transparent;
+    box-shadow: 0 0 0 0;
+}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.line{
+    border-top:1px solid black;
+    width:20%;
+}
+.pline{
+    border-top:1px solid black;
+    width:5%;
+    padding-bottom: 30px;
+}
+blockquote{
+    border-color: red;
+    font-size: 13px;
+    padding-right: 0px;
+}
+.name{
+    color: grey;
+    font-weight: lighter;
+}
+.job{
+    font-size: 13px;
+}
+.po{
+    padding-bottom: 20px;
+}
+td{
+    text-align: center;
+}
+th{
+    text-align: center;
+}
+.desk{
+    background: cadetblue;
+    padding: 0px;
+}
+.deskimage{
+    margin:0px;
+    padding:0px;
+}
+.deskcontent{
+    margin: 0px;
+    padding:0px;
+}
+.desktitle{
+    color: yellow;
+    padding-top:0px;
+    margin-top: 5px;
+}
+.dline{
+    width:6%;
+    border-top:1px solid white;
+}
+.deskcontent{
+    color:white;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:center;
+}
+.extra-container{
+    padding-top:40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.contact-container{
+    padding-top:20px;
+    background: darkslateblue;
+}
+.bodies{
+    padding-bottom: 30px;
+}
+.cline{
+    padding-bottom: 5px;
+    width: 15%;
+    border-top:1px solid greenyellow;
+}
+
+.club-box{
+    padding-top: 5px;
+    color: white;
+    line-height: 50px;
+}
+.club-name{
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    padding-left:10px;
+    font-size:17px;
+}
+.address-box{
+    padding-top: 5px;
+    color: white;
+    padding-left: 0px;
+    line-height: 45px;
+}
+address{
+    border: 0px solid transparent;
+    color:white;
+    line-height: 30px;
+}
+.contact-btn{
+    letter-spacing: 2px;
+    padding: 6px;
+    margin-top:5px;
+    height: 30px;
+    background-color: darkslateblue;
+    border: 0px solid transparent;
+    transition: 1s all ease;
+}
+.contact-btn:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+.white{
+    color: ghostwhite;
+}
+.top-container{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.caption{
+    position: absolute;
+    top:0;
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    opacity: 0;
+    transition: 1s all ease;
+    width:100%;
+}
+.gcontent{
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+}
+.galimg{
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.caption:hover{
+    opacity: 10;
+    transition: .9s all ease;
+    cursor: pointer;
+}
+.gcol{
+    padding-top: 30px;
+    padding-left: 85px;
+}
+.galleryhead{
+    padding-left: 20px;
+}
+@media (max-width: 768px){
+    .gcol{
+    padding-top: 30px;
+    padding-left: 15px;
+    }
+}
+
+.gline{
+    width: 10%;
+    border-top:2px solid black;
+    margin-left: 20px;
+}
+.fcaption{
+    position: absolute;
+    top:0;
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    opacity: 0;
+    border-radius: 50%;
+    border:1px solid white;
+    transition: 1s all ease;
+    width:90%;
+}
+.fcontent{
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    margin:0px;
+    text-align: center;
+}
+.faimg{
+    border-radius: 50%;
+    margin-bottom: 60px;
+}
+.fcaption:hover{
+    opacity: 20;
+    transition: .9s all ease;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.footer{
+    background: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:white;
+    font-size: 20px;
+}
+.img-container{
+    padding-top:150px;
+    padding-bottom: 70px;
+}
