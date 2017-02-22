@@ -3,7 +3,7 @@ This website belongs to cse department @ skct.
 
 Designed and Developed By:
     1.Satheesh Kumar D 
-    2.Somes Kumar
+    2.Somes Kumar K
 
 2015-2019 Batch Students of II-CSE-C.
 
